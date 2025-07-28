@@ -1,13 +1,10 @@
-import { Card, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import Image from "next/image";
+import { ThemeToggle } from "@/components/ui/themeToggle";
 
 export default function Home() {
   return (
-    <Card>
-      <CardHeader>
-        <CardTitle className="text-xl">Welcome back!</CardTitle>
-        <CardDescription>Login with your Github Account</CardDescription>
-      </CardHeader>
-    </Card>
+    <div>
+      <h1 className="text-2xl font-bold text-red-500">Main page</h1>
+      <ThemeToggle/>
+    </div>
   );
 }
